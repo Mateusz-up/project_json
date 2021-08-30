@@ -1,0 +1,60 @@
+html,body{
+    width: 100%;
+   
+}
+
+img{
+    width: 260px;
+    height: 230px;
+    margin-top: 10px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+   
+}
+
+#desc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 0;
+    min-width: 75%;
+    text-align: justify;
+}
+
+#price{
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+#wrapper
+{
+  position:relative;
+}
+
+#wrapper span
+{
+ display:none;
+ position:absolute;
+ top:40%;
+ left: 30%;
+}
+
+#wrapper:hover span
+{
+ display:table-cell;
+}
+
+#wrapper span input[type="button"]
+{
+ width:120px;
+ height:40px;
+ background-color:lightslategrey;
+ border:none;
+ color:white;
+ font-weight:bold;
+ font-size:17px;
+}
+
+
