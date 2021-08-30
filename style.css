@@ -7,9 +7,7 @@ img{
     width: 260px;
     height: 230px;
     margin-top: 10px;
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
+    
    
 }
 
